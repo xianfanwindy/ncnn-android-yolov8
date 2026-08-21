@@ -1,0 +1,29 @@
+# === Android / Gradle 构建产物 ===
+# 不用提交到 GitHub
+build/
+app/build/
+app/.cxx/
+.gradle/
+.idea/
+*.iml
+local.properties
+.kotlin/
+
+# === 系统 / 编辑器 ===
+.DS_Store
+Thumbs.db
+.vscode/
+.cache/
+
+# === Python 缓存 ===
+__pycache__/
+*.pyc
+
+# === 大型交付压缩包（不推 GitHub） ===
+*.zip
+
+# === 本地测试结果目录 ===
+20260703-北京电力-质量监督-视觉模型-安卓部署-实测结果/
+
+# === WorkBuddy 项目配置 ===
+.codebuddy/
